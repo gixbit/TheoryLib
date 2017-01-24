@@ -17,7 +17,7 @@
       /// <para />Radius = 6.371E+6
       /// <para />Gravitational Constant = 6.67408E-11
       /// </summary>
-      public static float Gravity { get { return Grav(); } }
+      public static float Gravity { get { return -Grav(); } }
 
       /// <summary>
       /// Mass variable for the object influencing gravity

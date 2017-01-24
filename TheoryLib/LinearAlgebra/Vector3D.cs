@@ -78,17 +78,17 @@
       /// <summary>
       /// X-Value of the 3-Space Vector
       /// </summary>
-      public float X { get { return this.component[ 0 ]; } set { this.component[ 0 ] = value; Magnitude3D( X , Y , Z ); } }
+      public float X { get { return this.component[ 0 ]; } set { this.component[ 0 ] = value; this.mag = Magnitude3D( X , Y , Z ); } }
 
       /// <summary>
       /// Y-Value of the 3-Space Vector
       /// </summary>
-      public float Y { get { return this.component[ 1 ]; } set { this.component[ 1 ] = value; Magnitude3D( X , Y , Z ); } }
+      public float Y { get { return this.component[ 1 ]; } set { this.component[ 1 ] = value; this.mag = Magnitude3D( X , Y , Z ); } }
 
       /// <summary>
       /// Z-Value of the 3-Space Vector
       /// </summary>
-      public float Z { get { return this.component[ 2 ]; } set { this.component[ 2 ] = value; Magnitude3D( X , Y , Z ); } }
+      public float Z { get { return this.component[ 2 ]; } set { this.component[ 2 ] = value; this.mag = Magnitude3D( X , Y , Z ); } }
 
       #endregion R3 Vector Properties and Instance Variables
 

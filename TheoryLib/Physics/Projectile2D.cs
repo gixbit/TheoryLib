@@ -1,5 +1,7 @@
 ﻿namespace TheoryLib.Physics {
 
+   using TheoryLib.LinearAlgebra;
+
    /// <summary>
    ///
    /// </summary>
@@ -29,7 +31,10 @@
       /// <summary>
       ///
       /// </summary>
-      public Projectile2D() {
+      public Projectile2D( Vector2D O , Velocity2D V ) {
+      }
+
+      public Projectile2D( Vector2D O , Vector2D F , float T ) {
       }
    }
 }

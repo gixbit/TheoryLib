@@ -65,12 +65,12 @@
       /// <summary>
       /// 2-Space X Quantity
       /// </summary>
-      public float X { get { return component[ 0 ]; } set { this.component[ 0 ] = value; Magnitude2D( X , Y ); } }
+      public float X { get { return component[ 0 ]; } set { this.component[ 0 ] = value; this.mag = Magnitude2D( X , Y ); } }
 
       /// <summary>
       /// 2-Space Y Quantity
       /// </summary>
-      public float Y { get { return component[ 1 ]; } set { this.component[ 1 ] = value; Magnitude2D( X , Y ); } }
+      public float Y { get { return component[ 1 ]; } set { this.component[ 1 ] = value; this.mag = Magnitude2D( X , Y ); } }
 
       #endregion R2 Vector Properties and Instance Variables
 
